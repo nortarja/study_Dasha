@@ -15,8 +15,8 @@ int main()
     setlocale(LC_ALL, "Rus");
     srand(time(NULL));
 
-    const int minArray = -10;
-    const int maxArray = 10;
+    const int minArray = -10000;
+    const int maxArray = 10000;
     const int SIZE = 20;
     int arr[SIZE];
     int countPairNumbers = 0;
