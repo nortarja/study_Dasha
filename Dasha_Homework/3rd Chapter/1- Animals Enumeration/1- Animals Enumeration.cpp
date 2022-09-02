@@ -13,9 +13,23 @@ using namespace std;
 
 void main()
 {
-	enum Animals { Chicken = 2, Lion = 4, Giraffe = 4, Elephant = 4, Duck = 2, Snake = 0 };
+	enum class Animals { 
+		Chicken = 0, 
+		Lion, 
+		Giraffe, 
+		Elephant, 
+		Duck, 
+		Snake, 
+		COUNT
+	};
 
-	cout << "Number of Elephant's legs is: " << Animals::Elephant << endl;
+	
+	const int SIZE = static_cast<int>(Animals::COUNT);
+	int arr[SIZE] = {2, 4, 4, 4, 2, 0};
+
+	int indexElephant = static_cast<int>(Animals::Elephant);
+		
+	cout << "Number of Elephant's legs is: " << arr[indexElephant] << endl;
 
 }
 
