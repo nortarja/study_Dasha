@@ -1,2 +1,9 @@
 ﻿  main.cpp
-  1- Class for Complex Numbers.vcxproj -> D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\Debug\1- Class for Complex Numbers.exe
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(19,12): error C2065: real: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(19,20): error C2065: imaginary: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(20,18): error C2065: real: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(20,24): error C2065: imaginary: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(24,12): error C2065: real: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(24,20): error C2065: imaginary: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(25,18): error C2065: real: необъявленный идентификатор
+D:\ОБУЧЕНИЕ С++\study_Dasha\Dasha_Homework\5th Chapter\1- Class for Complex Numbers\main.cpp(25,24): error C2065: imaginary: необъявленный идентификатор

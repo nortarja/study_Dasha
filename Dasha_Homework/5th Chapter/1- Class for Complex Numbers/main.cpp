@@ -4,70 +4,8 @@
  */
 
 #include <iostream>
+#include "Complex.h"
 using namespace std;
-
-class Complex
-{
-public:
-    Complex()
-    {
-    };
-    Complex(double real)
-    {
-        this->real = real;
-    };
-    Complex(double real, double imaginary)
-    {
-        this->real = real;
-        this->imaginary = imaginary;
-    };
-    Complex(const Complex& other)
-    {
-        this->real = other.real;
-        this->imaginary = other.imaginary;
-    };
-
-    ~Complex()
-    {
-    };
-
-    Complex& operator = (const Complex& other)
-    {
-        this->real = other.real;
-        this->imaginary = other.imaginary;
-        return *this;
-    };
-    Complex operator + (const Complex& other)
-    {
-        Complex temp;
-        temp.real = this->real + other.real;
-        temp.imaginary = this->imaginary + other.imaginary;
-        return temp;
-    };
-    Complex operator - (const Complex& other)
-    {
-        Complex temp; 
-        temp.real = this->real - other.real;
-        temp.imaginary = this->imaginary - other.imaginary;
-        return temp;
-    };
-    Complex operator * (const Complex& other)
-    {
-        Complex temp;
-        temp.real = this->real * other.real - this->imaginary * other.imaginary;
-        temp.imaginary = this->real * other.imaginary + this->imaginary * other.real;
-        return temp;
-    };
-
-    void Print()
-    {
-        cout << "\nResult = (" << this->real << ", " << this->imaginary << ")" << endl;
-    };
-
-private:
-    double real = 0.0;
-    double imaginary = 0.0;
-};
 
 int main()
 {
